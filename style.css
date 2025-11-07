@@ -1,0 +1,80 @@
+:root {
+  --background-color: #f9f9f9;
+  --text-color: #282828;
+}
+.dark-mode {
+  --background-color: #101010;
+  --text-color: #ffffff;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+h1 {
+    color: #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 50px;
+    border: solid;
+    border-color: #151515;
+    background-color: #151515;
+    padding: 5px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 45px;
+}
+a {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 40px;
+}
+a:link {
+    color: #282828;
+}
+a:hover {
+    color: #6f8faf;
+}
+#light-dark {
+    width: 25px;
+    margin-top: -6%;
+    margin-left: 95%;
+}
+#social-links {
+    color: #282828;
+    background-color: #ffffff;
+    border: solid;
+    border-radius: 25px;
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 32%;
+    text-align: center;
+}
+#YouTube {
+    text-align: center;
+}
+#Discord {
+    text-align: center;
+}
+#GitHub {
+    text-align: center;
+}
+#Repository {
+    text-align: center;
+}
+#gif {
+    width: 100px;
+    margin-left: auto;
+    margin-top: 5%;
+}
