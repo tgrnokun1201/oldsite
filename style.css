@@ -41,7 +41,7 @@ a {
     font-size: 40px;
 }
 a:link {
-    color: #282828;
+    color: var(--text-color);
 }
 a:hover {
     color: #6f8faf;
@@ -52,9 +52,11 @@ a:hover {
     margin-right: 25px;
 }
 #social-links {
-    color: #282828;
-    background-color: #ffffff;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    text-emphasis-color: var(--text-color);
     border: solid;
+    border-color: var(--text-color);
     border-radius: 25px;
     width: 35%;
     margin-left: auto;
