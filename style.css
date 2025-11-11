@@ -1,24 +1,39 @@
-:root {
-  --background-color: #f9f9f9;
-  --text-color: #282828;
-}
-.dark-mode {
-  --background-color: #101010;
-  --text-color: #ffffff;
-}
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: #ffffff;
+  color: #282828;
   transition: background-color 0.3s ease, color 0.3s ease;
   margin: 0px;
+}
+body.dark-mode {
+    background-color: #101010;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#light-dark {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 25px;
+}
+.dark-mode .light-icon {
+    display: none;
+}
+.light-icon {
+    display: inline-block;
+}
+.dark-mode .dark-icon {
+    display: inline-block;
+}
+.dark-icon {
+    display: none;
 }
 h1 {
     color: #ffffff;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-decoration: none;
     font-size: 50px;
+    text-decoration: none;
     border: solid;
     border-color: #151515;
     background-color: #151515;
@@ -29,134 +44,60 @@ h3 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-decoration: none;
     font-size: 45px;
+    text-decoration: none;
     border-top: dotted;
     border-bottom: dotted;
 }
-h4 {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    font-size: 35px;
-}
 h5 {
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    text-decoration: none;
     font-size: 20px;
-}
-p {
-    font-family: sans-serif;
-    font-weight: 700;
-    font-style: normal;
     text-decoration: none;
-    text-align: end;
-    font-size: 15px;
-}
-a {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    font-size: 40px;
 }
 a:link {
     color: var(--text-color);
+    text-decoration: none;
 }
 a:hover {
     color: #6f8faf;
 }
-#light-dark {
-    width: 25px;
-    margin-left: auto;
-    margin-right: 25px;
+#main-content {
+    border: solid;
+    border-color: var(--text-color);
+    background-color: var(--background-color);
+    text-emphasis-color: var(--text-color);
+    text-align: center;
+    border-radius: 10px;
+    width: 625px;
+    height: 375px;
+    padding: 5px;
+    margin: auto;
+}
+#links {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+}
+#misc {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+}
+#desc {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
 }
 #gif {
     width: 100px;
     margin-left: auto;
     margin-right: 15px;
-    margin-top: -15px;
-}
-#welcome {
-    color: var(--text-color);
-    background-color: var(--background-color);
-    text-emphasis-color: var(--text-color);
-    border: solid;
-    border-color: var(--text-color);
-    border-radius: 25px;
-    width: 50%;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-#misc {
-    color: var(--text-color);
-    background-color: var(--background-color);
-    text-emphasis-color: var(--text-color);
-    border: solid;
-    border-color: var(--text-color);
-    border-radius: 25px;
-    width: 50%;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-#about-me {
-    color: var(--text-color);
-    background-color: var(--background-color);
-    text-emphasis-color: var(--text-color);
-    border: solid;
-    border-color: var(--text-color);
-    border-radius: 25px;
-    width: 50%;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    text-align: left;
-}
-
-#social-links {
-    color: var(--text-color);
-    background-color: var(--background-color);
-    text-emphasis-color: var(--text-color);
-    border: solid;
-    border-color: var(--text-color);
-    border-radius: 25px;
-    width: 50%;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    text-align: center;
-}
-#YouTube {
-    text-align: center;
-}
-#Discord {
-    text-align: center;
-}
-#GitHub {
-    text-align: center;
-}
-#Repository {
-    text-align: center;
-}
-#end {
-    border: solid;
-    border-color: #151515;
-    background-color: #151515;
-    color: #ffffff;
-    height: 175px;
-    padding-left: 5px;
-    margin-top: 145px;
 }
