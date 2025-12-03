@@ -71,11 +71,10 @@ a:hover {
     text-align: center;
     border-radius: 10px;
     width: 40%;
-    height: 30%;
     padding: 5px;
     margin: auto;
 }
-#blog-content {
+#secondary-content {
     border: solid;
     border-color: var(--text-color);
     background-color: var(--background-color);
@@ -86,13 +85,13 @@ a:hover {
     padding: 5px;
     margin: auto;    
 }
-#blog-title {
+#secondary-title {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
 }
-#blog-end {
+#secondary-end {
     font-family: sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -107,7 +106,7 @@ a:hover {
     font-size: 30px;
     text-decoration: none;
 }
-#blog-links {
+#secondary-links {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
